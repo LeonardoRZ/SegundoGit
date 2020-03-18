@@ -1,0 +1,49 @@
+Git reset --soft   : El git reset mas simple y que no toca nuestro "Working Area" (No se mete con nuestro código).
+
+Git reset --mixed  : Este git reset borra el "Staging Area", sin tocar el "Working Area." (este reset no se usa mucho)
+
+Git reset --hard   : Este git reset borra absolutamente todo lo que hay en el commit.
+
+Fusiones de codigo con comando git merge, fast-Forward simple y automatico, Manual Merge largo y manual.
+
+git checkout -b nombreDeRama , crea y posiciona en la rama creada
+
+git branch -D nombreDeRama, Borra la rama nombreDeRama.
+
+git clone : Sirve para clonar un proyecto, lo que hace es tomar un proyecto de github y pasarlo a la computadora
+
+Repositorio remoto son los que estan en Github
+
+Repositorio local son los que estan en la computadora
+
+git remote add origin linkHttpsDeGithub, vincula proyecto local con proyecto remoto (sin pasar archivos, solo vincula)
+
+git push (git push origin nombreRama), manda nuestros archivos y cambios (commits) a github
+
+git remote -v, sirve para comprobar la vinculacion de un proyecto local a un proyecto remoto
+
+git remote remove origin, sirve para quitar proyecto vinculado desde la computadora a github
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
